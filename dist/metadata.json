@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schemas.premid.app/metadata/1.3",
+    "service": "German Host",
+    "author": {
+      "name": "revoX#8935",
+      "id": "508311556409393162"
+    },
+    "category": "other",
+    "logo": "https://cdn.discordapp.com/avatars/702459703195598889/2c342b889c242361b9b2779f75fe1318.png?size=1024",
+    "thumbnail": "https://cdn.discordapp.com/avatars/702459703195598889/2c342b889c242361b9b2779f75fe1318.png?size=1024",
+    "version": "1.0.0",
+    "color": "#0000ff",
+    "tags": [
+      "hoster",
+      "besthoster"
+    ],
+    "url": [
+      "portal.german-host.io",
+      "german-host.io"
+    ],
+    "description": {
+      "en": "German Host is your hoster for VPS or Dedicated Server and much more",
+      "de": "German Host ist dein Anbieter für V-Server, Dediccated Server und vielem mehr"
+    }
+  }
