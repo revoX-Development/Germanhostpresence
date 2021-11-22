@@ -26,6 +26,9 @@ presence1.on("UpdateData", () => {
       } else if (document.location.pathname.includes("/manage/webspaces/")) {
         presenceData.details = "Managing: ";
         presenceData.state = "Webspace";
+    } else if (document.location.pathname.includes("/manage/webspace/")) {
+        presenceData.details = "Managing: ";
+        presenceData.state = "Webspace";
       } else if (document.location.pathname.includes("/manage/domains/")) {
             presenceData.details = "Managing: ";
             presenceData.state = "Domains";
