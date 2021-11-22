@@ -14,9 +14,6 @@ presence1.on("UpdateData", () => {
     if (document.location.pathname.toLocaleLowerCase().includes("/index/")) {
         presenceData.details = "Portal";
         presenceData.state="";
-    } else if (document.location.pathname.includes("/")) {
-        presenceData.details = "Portal";
-        presenceData.state = "";
       } else if (document.location.pathname.includes("/auth/login/")) {
         presenceData.details = "Viewing: ";
         presenceData.state = "Login";
@@ -30,8 +27,8 @@ presence1.on("UpdateData", () => {
         presenceData.details = "Managing: ";
         presenceData.state = "Webspace";
       } else if (document.location.pathname.includes("/manage/domains/")) {
-            presenceData.details = "Managing: ";
-            presenceData.state = "Domains";
+        presenceData.details = "Managing: ";
+        presenceData.state = "Domains";
       } else if (document.location.pathname.includes("/legal/imprint")) {
         presenceData.details = "Viewing: ";
         presenceData.state = "Imprint";
