@@ -14,6 +14,9 @@ presence1.on("UpdateData", () => {
     if (document.location.pathname.toLocaleLowerCase().includes("/index/")) {
         presenceData.details = "Portal";
         presenceData.state="";
+    } else if (document.location.pathname.includes("/")) {
+        presenceData.details = "Portal";
+        presenceData.state = "";
       } else if (document.location.pathname.includes("/auth/login/")) {
         presenceData.details = "Viewing: ";
         presenceData.state = "Login";
